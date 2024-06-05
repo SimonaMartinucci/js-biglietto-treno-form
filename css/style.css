@@ -68,6 +68,10 @@ select {
     text-align: left;
 }
 
+.container.left .title {
+    text-align: center;
+}
+
 .details,
 h4,
 #username {
