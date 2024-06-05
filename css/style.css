@@ -12,8 +12,9 @@ main {
 }
 
 .container {
-    padding: 25px;
-    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
 }
 
 .container h2 {

@@ -11,10 +11,28 @@
 <body>
     <!-- MAIN -->
     <main>
-        <h2 class="title"></h2>
+        <!-- sezione calcolo -->
+        <h2 class="title">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
         <div class="container">
-            <h2>Il costo del tuo biglietto &egrave;:</h2>
-            <div id="ticket"></div>
+            <form action="#">
+                <!-- nome utente -->
+                <span>Nome e Cognome</span>
+                <input type="text" id="name">
+                <!-- km utente -->
+                <span>Km da percorrere</span>
+                <input type="number" id="km">
+                <!-- età utente -->
+                <span>Fascia d'et&agrave;</span>
+                <select name="age">
+                    <option value="under">Minorenne</option>
+                    <option value="adult">Maggiorenne</option>
+                    <option value="over">Over 65</option>
+                </select>
+                <hr>
+                <!-- bottone -->
+                <button id="calcola">CALCOLA</button>
+            </form>
+            <div id="risultato"></div>
         </div>
     </main>
    
