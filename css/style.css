@@ -68,10 +68,23 @@ select {
     text-align: left;
 }
 
+.details,
+h4,
+#username {
+    font-weight: bolder;
+}
+
 h4,
 #username {
     font-size: 25px;
-    margin: 25px 0 15px;
+}
+
+h4 {
+    margin: 25px 0 0;
+}
+
+#username {
+    margin: 5px 0 15px;
 }
 
 #ticket,

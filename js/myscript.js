@@ -46,6 +46,9 @@ bottoneCalcola.addEventListener("click",
 
         // inserimento codice cp
         document.getElementById("cpcode").innerHTML = Math.floor(Math.random()*99999) + 22222;
+
+        // inserimento costo biglietto
+        document.getElementById("price").innerHTML = ticketPrice.toFixed(2) + " €";
     }
 
 )
