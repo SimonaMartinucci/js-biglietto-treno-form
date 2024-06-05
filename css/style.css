@@ -11,21 +11,86 @@ main {
     height: 100vh;
 }
 
+/* sezione calcolo */
 .container {
-    background-color: white;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
+    text-align: center;
 }
 
-.container h2 {
-    text-decoration: underline;
-    margin-bottom: 20px;
+.title {
+    margin: 0 auto;
+    padding: 20px 0;
+    color: white;
+    font-size: 30px;
 }
 
-#ticket {
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item > div {
+    font-size: 20px;
+    color: brown;
+    margin-bottom: 15px;
+}
+
+input,
+select {
+    font-size: 20px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+ #calcola {
+    display: inline-block;
     background-color: brown;
     color: white;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 30px;
 }
+
+#calcola:hover {
+    cursor: pointer;
+}
+
+/* sezione biglietto */
+.container.left {
+    text-align: left;
+}
+
+h4,
+#username {
+    font-size: 25px;
+    margin: 25px 0 15px;
+}
+
+#ticket,
+#carriage,
+#cpcode,
+#price,
+h6 {
+    font-size: 18px;
+    margin: 25px 0 15px;
+}
+
+.details {
+    margin-bottom: 30px;
+}
+
+.d-flex.left {
+    justify-content: space-between;
+    border: 1px solid brown;
+    border-right: none;
+    padding: 20px;
+}
+

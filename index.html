@@ -12,28 +12,67 @@
     <!-- MAIN -->
     <main>
         <!-- sezione calcolo -->
-        <h2 class="title">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
         <div class="container">
-            <form action="#">
-                <!-- nome utente -->
-                <span>Nome e Cognome</span>
-                <input type="text" id="name">
-                <!-- km utente -->
-                <span>Km da percorrere</span>
-                <input type="number" id="km">
-                <!-- età utente -->
-                <span>Fascia d'et&agrave;</span>
-                <select name="age">
-                    <option value="under">Minorenne</option>
-                    <option value="adult">Maggiorenne</option>
-                    <option value="over">Over 65</option>
-                </select>
-                <hr>
+            <h2 class="title">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+            <div class="card">
+                <div class="d-flex">
+                    <!-- nome utente -->
+                    <div class="item">
+                        <div>Nome e Cognome</div>
+                        <input type="text" id="name">
+                    </div>
+                    <!-- km utente -->
+                    <div class="item">
+                        <div>Km da percorrere</div>
+                        <input type="number" id="km">
+                    </div>
+                    <!-- età utente -->
+                    <div class="item">
+                        <div class="item">Fascia d'et&agrave;</div>
+                        <select name="age">
+                            <option value="">--Scegli--</option>
+                            <option value="under">Minorenne</option>
+                            <option value="adult">Maggiorenne</option>
+                            <option value="over">Over 65</option>
+                        </select>
+                    </div>
+                </div>           
                 <!-- bottone -->
-                <button id="calcola">CALCOLA</button>
-            </form>
-            <div id="risultato"></div>
+                <div id="calcola">CALCOLA</div>
+            </div>
         </div>
+
+        <!-- sezione biglietto -->
+        <div class="container left">
+            <h2 class="title">IL TUO BIGLIETTO</h2>
+            <div class="card">
+                <h4 class="details">DETTAGLIO PASSEGGERI</h4>
+                <div class="d-flex left">
+                    <div>
+                        <h4>NOME PASSEGGERO</h4>
+                        <div id="username"></div>
+                    </div>
+                    <div>
+                        <h6>Offerta</h6>
+                        <div id="ticket"></div>
+                    </div>
+                    <div>
+                        <h6>Carrozza</h6>
+                        <div id="carriage"></div>
+                    </div>
+                    <div>
+                        <h6>Codice CP</h6>
+                        <div id="cpcode"></div>
+                    </div>
+                    <div>
+                        <h6>Costo biglietto</h6>
+                        <div id="price"></div>
+                    </div>
+                </div>           
+                
+            </div>
+        </div>
+
     </main>
    
     <!-- javascript -->
