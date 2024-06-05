@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* MAIN */
+main {
+    background-color: brown;
+    height: 100vh;
+}
+
+.container {
+    padding: 25px;
+    width: 50%;
+}
+
+.container h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#ticket {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
